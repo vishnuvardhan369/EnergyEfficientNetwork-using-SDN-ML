@@ -1,4 +1,4 @@
-# SDN-Based Energy-Efficient IoT Network (Optimized RPL Routing)
+#  Energy-Efficient IoT Network (Optimized RPL Routing)
 
 ## Project Overview
 
@@ -8,9 +8,6 @@ This project aims to enhance the energy efficiency of Internet of Things (IoT) n
 
 - **RPL Protocol:**  
   RPL is commonly used in IoT networks where devices have limited power. It organizes the network into a tree structure (known as a DODAG) where each node selects a "best parent" to forward data upward to a central gateway. Although effective for low-power communication, traditional RPL may not always choose the most energy-efficient path.
-
-- **SDN Concept:**  
-  SDN separates the control plane from the data plane, allowing for centralized decision-making. In the context of IoT, an SDN controller can dynamically manage routing, adapting to real-time conditions and optimizing energy usage across the network.
 
 - **Machine Learning Integration:**  
   By collecting data on energy consumption, latency, and packet delivery from simulated network scenarios, ML models can be trained to predict and select the most energy-efficient routing paths. This adaptive approach aims to extend the network lifetime and improve overall performance.
